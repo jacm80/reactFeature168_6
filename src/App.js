@@ -33,8 +33,15 @@ const App = () => {
 
   const [cart, setCart] = useState([]);
 
-  const getCartCount = () => cart.reduce((count, item) => count + parseInt(item.cant, 10), 0);
-  const getCartTotal = () => cart.reduce((total, item) => total + parseInt(item.cant, 10) * parseFloat(item.price), 0);
+  const getCartCount = () => {
+    const result = cart.reduce((count, item) => count + parseInt(item.cant, 10), 0);
+    return (Number.isNaN(result)) ? 0 : result;
+  };
+
+  const getCartTotal = () => {
+    const result = cart.reduce((total, item) => total + parseInt(item.cant, 10) * parseFloat(item.price), 0);
+    return (Number.isNaN(result)) ? 0 : result;
+  };
 
   return (
     <CartDetailsContext.Provider value={{

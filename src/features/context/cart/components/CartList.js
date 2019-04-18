@@ -140,7 +140,7 @@ const CartList = ({ cart, currentCartDetail, setCurrentCartDetail, setCart, prod
   };
 
   return (
-    <View style={{ flex: 1, borderWidth: 1, borderColor: 'red' }}>
+    <View style={{ flex: 1 }}>
       <FlatList
         renderItem={customRenderItem}
         data={cart}

@@ -29,6 +29,8 @@ export default {
     flex: 3
   },
   resultTextContainer: {
+    flex: 1,
+    alignSelf: 'stretch',
     backgroundColor: 'cyan',
     padding: 10,
     justifyContent: 'center',
