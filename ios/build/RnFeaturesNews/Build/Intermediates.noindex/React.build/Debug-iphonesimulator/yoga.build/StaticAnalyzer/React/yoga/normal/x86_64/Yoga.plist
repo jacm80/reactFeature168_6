@@ -6,8 +6,8 @@
 <string>Apple LLVM version 9.1.0 (clang-902.0.39.2)</string>
  <key>files</key>
  <array>
-  <string>/Users/jacm/react-native/RnFeaturesNews/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.cpp</string>
-  <string>/Users/jacm/react-native/RnFeaturesNews/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h</string>
+  <string>/Users/jacm/react-native/reactFeature168_6/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.cpp</string>
+  <string>/Users/jacm/react-native/reactFeature168_6/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h</string>
  </array>
  <key>diagnostics</key>
  <array>

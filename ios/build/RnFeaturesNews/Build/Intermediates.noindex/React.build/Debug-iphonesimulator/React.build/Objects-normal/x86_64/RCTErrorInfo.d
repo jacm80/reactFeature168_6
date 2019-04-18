@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/jacm/react-native/RnFeaturesNews/node_modules/react-native/React/Base/RCTErrorInfo.m \
-  /Users/jacm/react-native/RnFeaturesNews/node_modules/react-native/React/Base/RCTErrorInfo.h \
-  /Users/jacm/react-native/RnFeaturesNews/node_modules/react-native/React/Base/RCTJSStackFrame.h
+  /Users/jacm/react-native/reactFeature168_6/node_modules/react-native/React/Base/RCTErrorInfo.m \
+  /Users/jacm/react-native/reactFeature168_6/node_modules/react-native/React/Base/RCTErrorInfo.h \
+  /Users/jacm/react-native/reactFeature168_6/node_modules/react-native/React/Base/RCTJSStackFrame.h
