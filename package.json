@@ -8,6 +8,12 @@
     "run-ios": "react-native run-ios --simulator=\"iPhone 6\"",
     "lint": "eslint *.js **/*.js"
   },
+  "husky": {
+      "hooks": {
+        "pre-commit": "yarn test && yarn lint",
+        "pre-push": "yarn test && yarn lint"
+      }
+  },
   "dependencies": {
     "add": "^2.0.6",
     "babel-eslint": "^10.0.1",
@@ -39,6 +45,7 @@
     "babel-jest": "^24.5.0",
     "eslint": "^5.16.0",
     "eslint-plugin-react-hooks": "^1.6.0",
+    "husky": "^2.4.1",
     "jest": "^24.5.0",
     "metro-react-native-babel-preset": "^0.53.1",
     "react-test-renderer": "16.8.3"

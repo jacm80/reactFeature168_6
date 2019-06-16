@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		3m9hWAviejrm/QsKEcpH/WJCzXw=
+		e1X+Nz6LWYjaoELX1hkWBWCFQLU=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -51,7 +51,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		r0Ckl0WMsvENrtgLHEZ826MlZ5I=
+		Ix1y0zm7dqZNOg+TgBSKy300XLw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -71,7 +71,7 @@
 		</data>
 		<key>PlugIns/RnFeaturesNewsTests.xctest/RnFeaturesNewsTests</key>
 		<data>
-		zhSYE7TYLATT4oca6178oFIx0zo=
+		18zlJfkzC0hc/lMrtFWW4YJMqUg=
 		</data>
 		<key>PlugIns/RnFeaturesNewsTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3m9hWAviejrm/QsKEcpH/WJCzXw=
+			e1X+Nz6LWYjaoELX1hkWBWCFQLU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZwO4d6eCY2QG3PpkzebJqdF06qEgjykyZvUd3ksN91k=
+			2Bmztbjt0W0LKUgCby+oNjRSgfaFXL2ZCd+oXagCpn0=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -229,11 +229,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zhSYE7TYLATT4oca6178oFIx0zo=
+			18zlJfkzC0hc/lMrtFWW4YJMqUg=
 			</data>
 			<key>hash2</key>
 			<data>
-			SpBzUhwZF8nDzlPKwL0iTEuj55GR0Rzx5aH/3NmsT9k=
+			h+4FqBKW5VnsenEflbb8H5s67NlXili5n88hGSSt25k=
 			</data>
 		</dict>
 		<key>PlugIns/RnFeaturesNewsTests.xctest/_CodeSignature/CodeResources</key>
@@ -250,7 +250,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -281,24 +281,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -334,13 +322,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
