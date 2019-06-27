@@ -22,7 +22,7 @@ const styles = {
   textRow: { flex: 1 }
 };
 
-const AgendaList = ({ list }) => (
+export const AgendaList = ({ list }) => (
   <View style={styles.containerMain}>
     <View style={styles.containerHeader}>
       <Text style={styles.textRow}>ID</Text>

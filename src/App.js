@@ -64,7 +64,6 @@ const App = () => {
 };
 
 const DisplayContext = () => (
-
   <NumberContext.Consumer>
     {value => (
       <View style={{ backgroundColor: 'black', padding: 10 }}>
@@ -75,6 +74,5 @@ const DisplayContext = () => (
     )}
   </NumberContext.Consumer>
 );
-
 
 export default App;
