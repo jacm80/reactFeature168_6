@@ -45,7 +45,7 @@ const Home = ({ navigation }) => {
 
   const renderList = ({ item }) => (
     <View style={styles.itemContainer}>
-      <TouchableOpacity onPress={handleNavigate(item.path)} style={styles.itemButton}>
+      <TouchableOpacity onPress={handleNavigate(item.path)} style={styles.itemButton} accessibilityLabel={`btn-${item.id}`} testID={`btn-${item.id}`}>
         <Text>{item.title} Modulo: <Text style={{ fontWeight: 'bold' }}>{item.path}</Text></Text>
       </TouchableOpacity>
     </View>
