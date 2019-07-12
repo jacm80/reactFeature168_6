@@ -9,4 +9,4 @@ touch "${ROOT_DIRECTORY}/${DIR_SIMULATION_BUILD}/${CURRENT_DATE}";
 cd "$ROOT_DIRECTORY/ios"
 pwd
 whoami
-fastlane beta
+ ~/.fastlane/bin/fastlane beta
