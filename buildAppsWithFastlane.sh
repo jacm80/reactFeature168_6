@@ -7,4 +7,6 @@ CURRENT_DATE=$(echo $CURRENT_DATE);
 touch "${ROOT_DIRECTORY}/${DIR_SIMULATION_BUILD}/${CURRENT_DATE}";
 
 cd "$ROOT_DIRECTORY/ios"
+pwd
+whoami
 fastlane beta
