@@ -5,27 +5,37 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.020301">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.008403">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: increment_build_number" time="0.859638">
+      <testcase classname="fastlane.lanes" name="1: increment_build_number" time="0.885566">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: match" time="14.858698">
+      <testcase classname="fastlane.lanes" name="2: Switch to ios create_temporary_keychain lane" time="0.002058">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: build_app" time="190.390804">
+      <testcase classname="fastlane.lanes" name="3: create_keychain" time="0.145011">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: upload_to_testflight" time="401.640432">
+      <testcase classname="fastlane.lanes" name="4: match" time="9.211962">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: build_app" time="237.283226">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: upload_to_testflight" time="381.994906">
         
       </testcase>
     
